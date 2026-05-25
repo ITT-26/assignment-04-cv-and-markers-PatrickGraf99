@@ -108,7 +108,7 @@ class ImageProcessor:
         #cv2.imshow('frame', self.frame)
 
         # Update listener here???
-        print('Processed image, sending data to game')
+        #print('Processed image, sending data to game')
         self.notify_frame_available(status)
 
 
