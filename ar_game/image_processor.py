@@ -4,7 +4,6 @@ import cv2
 import cv2.aruco as aruco
 import sys
 import numpy as np
-import mediapipe as mp
 
 class StatusCode(Enum):
     SUCCESS = 0
