@@ -30,3 +30,19 @@ top right etc. and displays the result with the correct orientation. (If for som
 behavior go to line 50 and replace ``sorted_points`` with ``selected_points``. Should you do this the first selected 
 point will always be considered top left, the second top right, the third bottom right and the last bottom left. This
 does of course warp the image in different ways and does not keep orientation)
+
+
+## AR Game
+
+You can run the game using ``python .\ar_game\AR_game.py``
+
+To play all you need is an aruco board and any blue object (really anything should work) that should ideally be the size of a fingernail (but again really 
+anything should theoretically work, it just has to be blue). Once the game has loaded you must position the camera so it captures the entire aruco board (The game will display
+an error if no valid board can be found) and then place your pointer (the blue object) on the board. If no pointer can be found the game will display an error for that as well.
+If the board and cursor are correctly detected the game starts automatically. You can move the basket around by moving the pointer on the aruco board. Try to catch as many
+fruits as possible but be careful not to catch any bombs!
+
+## Credits
+
+The sprites for the fruits, basket and bomb were generated using ChatGPT. ChatGPT was also used to help with understanding logic, rewriting code, finding
+possible solutions to problems and generating code. The places where AI was used are marked in code with a comment
